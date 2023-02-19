@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combinaciones y permutaciones</title>
+    <script type="module" src="main.js"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="#DEF">Definición</a>
+            <a href="#DIF">Diferencia</a>
+            <a href="#FOR">Fórmulas</a>
+            <a href="#CAL">Calculadora</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Combinaciones y permutaciones</h1>
+        <section id="DEF">
+            <h2>Definición</h2>
+            <p>Las combinaciones y permutaciones son formas en las que podemos formas subconjuntos a partir de un conjunto
+                mayor.</p>
+        </section>
+        <section id="DIF">
+            <h2>Diferencia</h2>
+            <p>La diferencia entre una combinación y una permutación radica en el orden de los elementos.</p>
+            <p>En una combinación no nos interesa el orden de los elementos del conjunto, solo su presencia.</p>
+            <p>¿Es lo mismo una torta de mole con pollo que una torta de pollo con mole? Pues sí, no importa el orden</p>
+            <p>Por su parte, en una permutación nos interesa el orden de los elementos de un conjunto.</p>
+            <p>No es lo mismo que tu contraseña sea '1234' a que tu contraseña sea '4321'. <span>Aunque ambas sean inseguras...</span></p>
+            
+        </section>
+        <section id="FOR">
+            <h2>Fórmulas</h2>
+            <p>Pending...</p>
+        </section>
+        <section id="CAL">
+            <h2>Calculadora de combinaciones y permutaciones</h2>
+            <input type="number" placeholder="Tu conjunto. Ej. 4" id="n" min="0">
+            <input type="number" placeholder="Tu subconjunto. Ej. 2" id="r" min="0">
+            <button id="calculate">Calcular</button>
+            <button id="clear">Limpiar</button>
+            <div class="respuestas">
+                <p id="resCom"></p>
+                <p id="resPer"></p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Hecho con 💜 por <a href="https://jehufrayle.com">Jehú Frayle</a></p>
+    </footer>
+</body>
+
+</html>
